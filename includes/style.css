@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* Sistema de Área Restrita TGM HOST */
+/* Guilherme - Prolos */
+
+
+/* Geral */
+body{
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Banner Topo */
+.banner{
+	
+}
+
+.banner img{
+	margin: 40px 0 0 0;
+}
+
+.arearestrita{
+	margin: 2px;
+	padding-bottom: 5px;
+	color: #666;
+	font-size: 24px;
+	letter-spacing:4px;
+}
+
+/* Sessão Dropdown topo*/
+.dropdown-toggle{
+	text-align: right;
+}
+
+.dropdown-toggle:hover, .dropdown-toggle:visited, .dropdown-toggle:active{
+	background-color: #FFF !important;
+}
+.sessao{
+	list-style-type:none;
+}
+
+/* Menu */
+.nav-menu {
+	list-style-type:none;
+	display: inline-block;
+}
+
+.nav-menu li{
+	display: inline !important;
+	position: relative !important;
+	padding: 10px 15px !important;
+	bottom:0px !important;
+	background-color: #FFF !important;
+	font-style: none !important;
+	cursor: pointer;
+}
+
+.nav-menu li:hover{
+	color: #3f5443;
+	border-bottom: solid 3px #3f5443;
+}
+
+.menuativo, .menuativo:hover, .menuativo:visited {
+	background-color: #FFF !important;
+	color: #3a5c84 !important;
+	border-bottom: solid 3px #3a5c84 !important;
+	font-weight: bold;
+}
+
+.menu_row{
+	margin-bottom:0px !important;
+}
+
+.content{
+	padding: auto 4%;
+}
+
+.title_content{
+	margin: 4% 0 5% 12%;
+	color: #3f5443;
+}
+/* Form */
+.help-block{ /* Texto explicativo sobre os campos */
+    visibility: hidden;
+    margin:0px !important;
+}
+
+.icone_duvida{ /* Icones clicaveis para a explicação nos campos */
+	color: #cad6cc !important;
+	margin-top: 9px !important;
+	margin-left: -20px !important;
+	cursor: pointer;
+}
+.icone_duvida:hover{
+	color: #99aa9d !important;
+}
+
+.botao_submit{
+	background-color: #3f5443;
+	border: none;
+	width: 200px !important;
+	margin-left: 34% !important;
+	margin-right: -100px;
+	margin-bottom: 4%;
+}
+
+.botao_submit:hover{
+	background-color: #3a5c84;
+}
+.cointainer_content{
+	background-color: #f7f7f7;
+	width: 100% !important;
+}
+.control-label{
+	color: #3f5443 !important;
+	text-align: right !important;
+}
+
+.cointainer_footer{
+	background-color: #3a5c84;
+}
+.footer{
+	color: #FFF;
+	font-size: 16px;
+	text-align: center;	
+	padding: 20px;
+}
+
+.active{
+	background-color: #f7f7f7 !important;
+}
+/*-------------------------*/
+/* Login */
+/*-------------------------*/
+.divlogin{
+	position: relative;
+	padding:15px;
+	height: 100%;
+	width: 60%;
+	margin: auto auto;
+}
+
+/*-------------------------*/
+/* Formulário de Orçamento */
+/*-------------------------*/
+
+.gerados span{
+	position: relative;
+    background-color: #3a5c84;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #FFF;
+    cursor: pointer;
+}
+.select_clientes{
+	color: #3a5c84;
+	font-size: 18px;
+}
+.orcamentos_recentes{
+	position: relative;
+    background-color: #3a5c84;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #FFF;
+    cursor: pointer;
+}
+.div_form_orcamento{
+	color: #3a5c84;
+	font-size: 18px;
+}
+.nomecliente{
+
+}
